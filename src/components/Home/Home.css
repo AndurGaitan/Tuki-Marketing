@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../Home/image/background7.png'); 
+    background-image: url('../Home/image/bg1.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -24,14 +24,35 @@
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 10%;
+    
   }
 
-/* Ajustes para pantallas más pequeñas */
+.titulo{
+  font-size:60px;
+
+}
+
+.subtitulo{
+  font-size: 40px;
+  color: #ff6494;
+}
 @media (max-width: 768px) {
     .background-image {
       background-size: cover;
-      background-position: top; /* Ajusta la imagen para mostrar más de la parte superior */
+      background-position: top;
+      
     }
+    .titulo{
+      font-size:40px;
+    
+    }
+    
+    .subtitulo{
+      font-size: 25px;
+      color: #ff6494;
+    }
+
   }
   
 @media (max-width: 480px) {
@@ -41,4 +62,15 @@
       /* Opcional: puedes reducir la altura del contenedor para que la imagen se vea mejor */
       height: 50vh; /* 50% de la altura de la ventana */
     }
+    .titulo{
+      font-size:20px;
+    
+    }
+    
+    .subtitulo{
+      font-size: 15px;
+      color: #ff6494;
+    }
+
+  
   }

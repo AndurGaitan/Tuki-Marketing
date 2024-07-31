@@ -4,8 +4,8 @@ function Home() {
     <div className="home-container">
       <div className="background-image"></div>
       <div className="content">
-        <p>Web en construcción</p>
-        <p>Comunicate con nosotros</p>
+        <p className="titulo">Web en construcción</p>
+        <p className="subtitulo">Comunicate con nosotros</p>
       </div>
     </div>
   )
