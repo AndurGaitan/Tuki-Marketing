@@ -20,4 +20,27 @@
 - **Monserrat**
 - **Comfortaa**
 
+# Estrategia de Ramas
+
+## Ramas Principales
+
+### master
+- Rama principal de producción.
+- Todo el código aquí debe estar listo para despliegue.
+
+### develop
+- Rama de desarrollo donde se integran las nuevas características y correcciones antes de ser lanzadas a producción.
+
+### preview
+- Rama temporal donde se desarrollara la pagina en contrucción.
+
+## Ramas de Trabajo
+
+### feature/nueva-funcionalidad
+- Ramas creadas desde `develop`.
+- Utilizadas para desarrollar nuevas características.
+- Ejemplo:
+  git checkout develop
+  git pull origin develop
+  git checkout -b feature/nueva-funcionalidad
 

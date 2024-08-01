@@ -5,6 +5,7 @@ const NavBar = () => {
     <div>
       <div className='nav'>
         <div className='nav-logo'>
+          <p>NAVBAR</p>
             <a href=""><img src={logo2} alt="" className="logo" /></a>
         </div>
         <ul className='nav-menu'>
