@@ -25,17 +25,19 @@
     text-align: center;
     padding: 20px;
     margin-top: 10%;
+    font-family: Quicksand;
+    font-weight: 700;
     
   }
 
 .titulo{
-  font-size:60px;
+  font-size:70px;
 
 }
 
 .subtitulo{
   font-size: 40px;
-  color: #ff6494;
+  color: #FF6494;
 }
 @media (max-width: 768px) {
     .background-image {
@@ -50,7 +52,7 @@
     
     .subtitulo{
       font-size: 25px;
-      color: #ff6494;
+      color: #FF6494;
     }
 
   }
@@ -69,7 +71,7 @@
     
     .subtitulo{
       font-size: 15px;
-      color: #ff6494;
+      color: #FF6494;
     }
 
   
