@@ -1,14 +1,16 @@
 # Tuki - Agencia de Marketing
-!(./src/assets/IsoLogo.png)
+![TUKI](./src/assets/IsoLogo.png)
 
 ## Inicialización del Proyecto
 ### Pasos para Inicializar el Proyecto
 1. **Clonar el Repositorio**
 
 2. **Cambia al directorio del proyecto clonado:**
+
 **cd tukiWeb**
 
-3. **Crea una nueva rama a partir de develop**
+3. **Crea una nueva rama a partir de develop:**
+
 -**git checkout develop**
 -**git pull origin develop**
 -**git checkout -b feature/nueva-funcionalidad**
