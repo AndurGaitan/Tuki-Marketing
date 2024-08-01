@@ -11,11 +11,14 @@
 
 3. **Crea una nueva rama a partir de develop:**
 
--**git checkout develop**
--**git pull origin develop**
--**git checkout -b feature/nueva-funcionalidad**
+**git checkout develop**
+
+**git pull origin develop**
+
+**git checkout -b feature/nueva-funcionalidad**
 
 4. **Iniciar el Servidor de Desarrollo**
+
 *npm run dev*
 
 ## Tecnologías Utilizadas
